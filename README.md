@@ -14,15 +14,31 @@ Utilizando series de tiempo, en específico curvas de luz, proponemos automatiza
 
 # :scroll: Source
 
-* Regarding our work in unsupervised learning of a representation of light curves via variational auto-encoders ([obj4](/obj4))
-  * :unlock: [Final published version](https://www.mdpi.com/2624-6120/2/4/42)
-  * [Poster](https://github.com/fmenat/fmenat/blob/main/posters/2020_VAE.pdf)
-* Regarding our work in imaging the light curves via Markov transition field ([obj1](obj1))
+* Regarding our work in imaging the light curves via Markov transition field ([obj1](./code/obj1))
   * :lock: [Final published version](https://doi.org/10.1016/j.ascom.2021.100461)
   * :unlock: [Preprint](https://www.researchgate.net/publication/350163853_Harnessing_the_power_of_CNNs_for_unevenly-sampled_light-curves_using_Markov_Transition_Field)
+  * [Poster](https://github.com/fmenat/fmenat/blob/main/posters/2020_MTF.pdf)
+* Regarding our work in unsupervised learning of a representation of light curves via variational auto-encoders ([obj4](./code/obj4))
+  * :unlock: [Final published version](https://www.mdpi.com/2624-6120/2/4/42)
+  * [Poster](https://github.com/fmenat/fmenat/blob/main/posters/2020_VAE.pdf)
   
 
 # 🖊️ Citation
+
+Bugueno, M., et al. "*Harnessing the power of CNNs for unevenly-sampled light-curves using Markov transition field.*" Astronomy and Computing 35 (2021): 100461.
+```bibtex
+@article{bugueno2021harnessing,
+  title={Harnessing the power of CNNs for unevenly-sampled light-curves using Markov transition field},
+  author={Bugueno, M and Molina, Gabriel and Mena, F and Olivares, P and Araya, Mauricio},
+  journal={Astronomy and Computing},
+  volume={35},
+  pages={100461},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+> this is a reference to our work in imaging light curves via MTF.
+
 
 Mena, Francisco, et al. "*On the Quality of Deep Representations for Kepler Light Curves Using Variational Auto-Encoders.*" Signals 2.4 (2021): 706-728.
 ```bibtex
@@ -38,17 +54,3 @@ Mena, Francisco, et al. "*On the Quality of Deep Representations for Kepler Ligh
 }
 ```
 > This is a reference to our work with variational auto-encoders
-
-Bugueno, M., et al. "*Harnessing the power of CNNs for unevenly-sampled light-curves using Markov transition field.*" Astronomy and Computing 35 (2021): 100461.
-```bibtex
-@article{bugueno2021harnessing,
-  title={Harnessing the power of CNNs for unevenly-sampled light-curves using Markov transition field},
-  author={Bugueno, M and Molina, Gabriel and Mena, F and Olivares, P and Araya, Mauricio},
-  journal={Astronomy and Computing},
-  volume={35},
-  pages={100461},
-  year={2021},
-  publisher={Elsevier}
-}
-```
-> this is a reference to our work in imaging light curves via MTF.
